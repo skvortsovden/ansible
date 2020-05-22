@@ -1,0 +1,10 @@
+---
+- name: Database servers provisioning
+  hosts: db
+
+  tasks:
+    - name: Install myslq server
+      apt:
+        name: mysql-server-5.7
+        state: present
+        update_cache: yes
