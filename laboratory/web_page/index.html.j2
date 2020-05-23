@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Simple Web Page</h1>
+  <table>
+    <tr>
+      <th>ansible_hostname</th>
+      <td>{{ ansible_hostname }}</h3>
+      </td>
+    </tr>
+    <tr>
+      <th>ansible_default_ipv4.address</th>
+      <td>{{ ansible_default_ipv4.address }}</td>
+    </tr>
+    <tr>
+      <th>ansible_os_family</th>
+      <td>{{ ansible_os_family }}</td>
+    </tr>
+    <tr>
+      <th>ansible_distribution</th>
+      <td>{{ ansible_distribution }}</td>
+    </tr>
+    <tr>
+      <th>ansible_distribution_version</th>
+      <td>{{ ansible_distribution_version }}</td>
+    </tr>
+  </table>
+</body>

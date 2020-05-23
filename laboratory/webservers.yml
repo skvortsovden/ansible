@@ -8,3 +8,8 @@
         name: nginx
         state: latest
         update_cache: yes
+
+    - name: Deploy simple html page
+      template:
+        src: "{{ src_web_page }}"
+        dest: "{{ dst_web_page }}"

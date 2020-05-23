@@ -1,8 +1,8 @@
 [all]
-web1 ansible_user=172.17.44.243 ansible_user=vagrant
+web1 ansible_user=172.17.44.250 ansible_user=vagrant
 web2 ansible_user=172.17.44.244 ansible_user=vagrant
 db1 ansible_user=172.17.44.252 ansible_user=vagrant
-db2 ansible_user=172.17.44.247 ansible_user=vagrant
+db2 ansible_user=172.17.44.242 ansible_user=vagrant
 [web]
 web1
 web2
